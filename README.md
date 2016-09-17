@@ -14,6 +14,12 @@ Of course, we need to make some assumptions:
 - Teleportations to a point over land result in survival.
 - Teleportations to a point over water result in death.
 
+### Approach
+
+Both population density and topography maps are downloaded from [NASA Earth Observations](http://neo.sci.gsfc.nasa.gov/]) as GeoTIFF files. These maps are manipulated and compared at a pixel level using GDAL in Python to determine the "survival" of each pixel. A value for proportional survival is subsequently calculated. 
+
+Later down the track, it might be worth experiment with stacking maps to obtain a more precise survival figure by reducing assumptions. For instance, if a pixel is teleported to an area which is on fire, they will perish. Perhaps people teleporting into warm water on a common shipping route will survive.
+
 ### Prerequisites
 
 This project requires GDAL and Python to be installed. Here's how I managed to install GDAL in Windows:
