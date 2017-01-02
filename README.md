@@ -8,7 +8,7 @@ The project seeks to answer the following question:
 ***If the entire population of earth was simultaneously and instantaneously transported to the other side of the world, how many would survive?***
 
 Of course, we need to make some assumptions:
-- Teleportation is real and just as simple as it sounds.
+- Teleportation is practical and just as simple as it sounds.
 - People are teleported to a point located on the other side of earth, through the core.
 - This point is at surface level, meaning nobody dies due to object interference or similar.
 - Teleportations to a point over land result in survival.
